@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+
 	a := 10
 	b := 20
 	c := 30
@@ -13,7 +14,7 @@ func main() {
 	if a < b {
 		fmt.Println(a, "is greater than", b)
 	}
-	// go allows if else statememt for logic flow control
+	// go allows else if statememt for logic flow control
 	if b < a {
 		fmt.Println(b, "is greater than", a)
 	} else if c > b {
